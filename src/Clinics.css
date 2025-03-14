@@ -1,0 +1,165 @@
+.clinics-container {
+    width: 100%;
+    max-width: 1100px;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    margin: auto;
+}
+
+.clinics-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.clinics-header h2 {
+    font-size: 1.5rem;
+}
+
+.add-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.add-btn:hover {
+    background-color: #218838;
+}
+
+.clinics-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.clinic-card {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    justify-content: space-between;
+}
+
+.clinic-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.clinic-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    background: #C21D3F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.clinic-details h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.clinic-address {
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.clinic-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.clinic-phone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icon {
+    color: black;
+}
+
+.clinic-hours {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.edit-btn {
+    background-color: #aaa;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    background-color: #888;
+}
+
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(2, 2, 2, 0.5);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content {
+    background: #ffffff !important;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input-modal{
+    height: 30px;
+    border: 1px dotted grey;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.cancel-button {
+    background: gray;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.next-button {
+    background: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
