@@ -62,26 +62,26 @@ function App() {
             <div className="sidebar">
                 <div className="logo-container">
                     <img
-                        src="src/assets/logo.svg"
+                        src="/assets/logo.svg"
                         alt="Logo"
                         className="logo"
                     />
                 </div>
                 <div className="sidebar-items">
                     <div className="icon-text">
-                        <SidebarItem iconSrc="src/assets/user-tag.svg" label="Пользователи" active={selectedComponent === "Пользователи"} onClick={() => setSelectedComponent("Пользователи")} />
+                        <SidebarItem iconSrc="/assets/user-tag.svg" label="Пользователи" active={selectedComponent === "Пользователи"} onClick={() => setSelectedComponent("Пользователи")} />
                     </div>
                     <div>
-                        <SidebarItem iconSrc="src/assets/element-equal.svg" label="Регистры" active={selectedComponent === "Регистры"} onClick={() => setSelectedComponent("Регистры")} />
+                        <SidebarItem iconSrc="/assets/element-equal.svg" label="Регистры" active={selectedComponent === "Регистры"} onClick={() => setSelectedComponent("Регистры")} />
                     </div>
                     <div>
-                        <SidebarItem iconSrc="src/assets/hospital.svg" label="Клиники" active={selectedComponent === "Клиники"} onClick={() => setSelectedComponent("Клиники")} />
+                        <SidebarItem iconSrc="/assets/hospital.svg" label="Клиники" active={selectedComponent === "Клиники"} onClick={() => setSelectedComponent("Клиники")} />
                     </div>
                 </div>
 
                 <div className="sidebar-footer">
                     <SidebarItem
-                        iconSrc="src/assets/logout.svg"
+                        iconSrc="/assets/logout.svg"
                         label="Выход из системы"
                         active={false}
                         onClick={handleLogoutClick}

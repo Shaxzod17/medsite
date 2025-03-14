@@ -78,7 +78,7 @@ const Clinics = () => {
                     <div key={clinic.id} className="clinic-card">
                         <div className="clinic-info">
                             <div className="clinic-avatar">
-                                <img src="/src/assets/location-add.svg" alt=""/>
+                                <img src="/assets/location-add.svg" alt=""/>
                             </div>
                             <div className="clinic-details">
                                 <h3>{clinic.name}</h3>

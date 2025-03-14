@@ -113,7 +113,7 @@ function UserList() {
                     {filteredUsers.map((user, index) => (
                         <div key={index} className="user-card">
                             <div className="user-avatar">
-                                <img src="/src/assets/Rectangle 32.svg" alt={user.firstName} />
+                                <img src="/assets/Rectangle 32.svg" alt={user.firstName} />
                             </div>
                             <div className="user-info">
                                 <div className="user-primary">
@@ -161,7 +161,7 @@ function UserList() {
                     <div className="modal-content">
                         <h2>ОСНОВНАЯ ИНФОРМАЦИЯ</h2>
                         <div className={"main-div"}>
-                            <img src="/src/assets/Rectangle 32.svg" alt="User Avatar" className="user-avatar2" />
+                            <img src="/assets/Rectangle 32.svg" alt="User Avatar" className="user-avatar2" />
                             <p><strong>Фамилия:</strong> {selectedUser.lastName}</p>
                             <p><strong>Имя:</strong> {selectedUser.firstName}</p>
                             <p><strong>Отчество:</strong> {selectedUser.middleName}</p>
